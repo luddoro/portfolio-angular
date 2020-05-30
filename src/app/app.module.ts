@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlackBoxComponent } from './black-box/black-box.component';
 import { WhiteBoxComponent } from './white-box/white-box.component';
+import { ColumnsComponent } from './columns/columns.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlackBoxComponent,
-    WhiteBoxComponent
+    WhiteBoxComponent,
+    ColumnsComponent
   ],
   imports: [
     BrowserModule,

@@ -16,7 +16,7 @@ body {
 .container {
   max-width: $max;
   margin: auto;
-  padding: 0 80px;
+  padding: 20px;
 }
 
 .row {
@@ -27,11 +27,13 @@ body {
 
   &.row-center {
     justify-content: center;
-    align-items: center;
   }
 
   &.row-between {
     justify-content: space-between;
+  }
+
+  &.align-center {
     align-items: center;
   }
 
@@ -75,10 +77,10 @@ $size in $sizes {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
   .container {
-    padding: 10px 0;
+    padding: 20px 80px;
   }
 
 }

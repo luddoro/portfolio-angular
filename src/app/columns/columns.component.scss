@@ -1,0 +1,42 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  .column-text {
+    text-align: center;
+  }
+
+  .column-image {
+
+    a {
+
+      img {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        transition: all .2s;
+      }
+
+      &:hover img {
+        transform: scale(1.1, 1.1);
+        filter: brightness(.8);
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .column {
+    padding: 80px 0;
+  }
+
+}
