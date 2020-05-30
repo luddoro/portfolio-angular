@@ -1,9 +1,9 @@
+@import "../../variables.scss";
+
+.whit-box {
+  background-color: $bg-inverse;
+}
+
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
-  height: 40vh;
-  width: 100vw;
-  padding: 20px;
 }

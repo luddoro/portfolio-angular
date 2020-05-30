@@ -1,12 +1,9 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #262222;
-  height: 60vh;
-  width: 100vw;
+@import "../../variables.scss";
+
+.black-box {
+  background-color: $bg;
 }
 
 h1 {
-  color: white;
+  color: $text-inverse;
 }

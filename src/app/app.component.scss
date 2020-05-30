@@ -1,9 +1,15 @@
+.titles {
+  padding: 200px 0;
+  text-align: center;
+}
+
 .title {
   font-size: 50px;
 }
 
 .sub {
   font-size: 30px;
+
 }
 
 .title,
@@ -12,14 +18,14 @@
 
 }
 
+
 .info {
   font-size: 17px;
   line-height: 25px;
 }
 
 .selfImage {
-  border-radius: 20px;
-  width: 10%;
-  height: 20%;
-
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
